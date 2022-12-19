@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Marta Belavus</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+             <a title="Перейти по ссылке" class="nav-item" href="#about"><b>AboutMe</b></a>
+             <a title="Перейти по ссылке" class="nav-item" href="#education"><b>Education</b></a>
+             <a title="Перейти по ссылке" class="nav-item" href="#projects"><b>Projects</b></a>
+             <a title="Перейти по ссылке" class="nav-item" href="#code-example"><b>Code</b></a>
+            </nav>
+            <header>
+                <img src="myphoto.jpg" alt="My photo" class="myphoto" />
+                <div class="name">
+                    <p><h1>Marta Belavus</h1></p>
+                    <p><h2>Front-End Developer</h2></p>
+                </div>
+            </header>
+            <main>
+                <aside>
+                    <div class="contacts">
+                        <hr>
+                        <H2>Contacts</H2>
+                        <p>+375291967771</p>
+                        <p><a href="https://github.com/martospups">GitHub</a></p>
+                        <p><a href="martosbarbos@icloud.com">martosbarbos@icloud.com</a></p>
+                        <p>Minsk, Belarus</p>
+                        <hr>
+                        <H1>Soft Skills</H1>
+                        <ul>
+                            <p><li>Communicative</li></p>
+                            <p><li>Fast learner</li></p>
+                            <p><li>Punctuality</li></p>
+                            <p><li>Purposeful</li></p>
+                        </ul>
+                        <hr>
+                        <H2>English level</H2>
+                        <h3>Estimated level:</h3>
+                        <h1>B1+</h1>
+
+                    </div>
+                </aside>
+                <section>
+                    <div style="font-size: 25px; font-weight: bold;text-align: center;"> 
+                        <p>About me</p>
+                    </div>
+                    <div class="aboutme">
+                        <p>
+                            Hi. I'm Marta. I am 24 years old. And I graduated from the <b>Belarusian State Technical University</b>.
+                            My specialty is <b>customs</b>. 
+                             At the university, we studied the basics of HTML in CSS to create a website that was part of my graduate work.
+                             I  And now I am a beginner Front-End developer.
+                        </p>
+                    </div>
+                    <p><pre><code class="hljs" style="font-size: 17px; ;text-align: center;" id="code">
+                        <hr>
+                        <p><b>Code example </b></p> 
+      >function peak(arr) {
+          for (let i = 1; i < arr.length - 1; i++) {
+            let leftSum = arr.slice(0, i).reduce((accumulator, currentValue)
+              => accumulator + currentValue);
+            let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) 
+             => accumulator + currentValue);}
+                     }</code></pre>
+                    </p>
+                </section>
+            </main>
+            <footer>
+                <div class="footer-year"><em>2022</em></div>
+                <div class="footer-github">
+                <a title="Перейти по ссылке" href="https://github.com/martospups">Me on GitHub</a>
+            </div>
+            <div class="footer-rsschool">
+                <a target="_blank" href="https://rs.school/js-stage0/"><img src="images.png" alt="RSSchool link"/></a>
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>
